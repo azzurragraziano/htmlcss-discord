@@ -44,6 +44,57 @@ li a
     color: white;
 }
 
+.header-btn, .main-btn
+{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn>.white
+{
+    margin-right: 10px;
+}
+
+.btn-large, .btn-small
+{
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.btn-small
+{
+    padding: 5px;
+}
+
+.btn-large
+{
+    padding: 8px;
+}
+
+.blue
+{
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: white;
+}
+
+.white
+{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.black
+{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
 /* HEADER */
 /* header top */
 .header-top
@@ -217,15 +268,14 @@ footer
     padding-top: 20px;
 }
 
-.btn-small
-{
-    border-style: solid;
-    background-color: rgb(124, 60, 71);
-}
-
 .footer-btn
 {
     height: 40px;
     align-items: center;
     justify-content: space-between;
+}
+
+.sign-in
+{
+    font-size: 11px;
 }
