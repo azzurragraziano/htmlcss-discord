@@ -1,0 +1,206 @@
+/* RESET */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    width: 100%;
+}
+
+/* COMMON */
+body
+{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+.flex-container
+{
+    display: flex;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.bg-lightgray
+{
+    background-color: lightgray;
+}
+
+/* HEADER */
+/* header top */
+.header-top
+{
+    padding: 20px 0;
+    background-color: #255ee9;
+}
+
+.nav-col
+{
+    padding: 5px;
+}
+
+.logo
+{
+    width: 20%;
+}
+
+nav
+{
+    width: 60%;
+}
+
+
+.login
+{
+    width: 20%;
+    text-align: right;
+}
+
+/* header bottom */
+.header-bottom
+{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+/* menu */
+.menu
+{
+    justify-content: center;
+}
+
+.menu li
+{
+    padding: 0 15px;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* jumbotron */
+.jumbotron
+{
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-text
+{
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+/* MAIN */
+section
+{
+    padding: 30px 0;
+}
+
+.large-col
+{
+    width: 60%;
+}
+
+.narrow-col
+{
+    width: 40%;
+    padding-top: 15px;
+}
+
+.caption.centered
+{
+    text-align: center;
+}
+
+.caption>h2
+{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.adventure>h3
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* FOOTER */
+/* footer top */
+footer
+{
+    background-color: black;
+}
+.footer-top
+{
+    padding: 5px 0 20px;
+}
+.footer-main-col
+{
+    background-color: pink;
+    height: 300px;
+}
+
+.main-info-area
+{
+    width: 30%;
+    border: 1px solid blue;
+    height: 100%;
+}
+
+.language>img
+{
+    width: 20px;
+}
+
+.footer-menus-col
+{
+    width: 70%;
+    border: 1px solid blue;
+    height: 100%;
+}
+
+.footer-menu-col
+{
+    width: 25%;
+    border: 1px solid red;
+    height: 100%;
+    background-color: #20b2a9;
+    padding-top: 20px;
+}
+
+/* footer bottom */
+.footer-bottom
+{
+    color: white;
+    padding-top: 20px;
+}
+
+.btn-small
+{
+    background-color: rgb(124, 60, 71);
+}
+
+.footer-btn
+{
+    height: 40px;
+    align-items: center;
+    background-color: azure;
+    justify-content: space-between;
+}
